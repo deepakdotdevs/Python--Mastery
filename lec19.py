@@ -58,3 +58,32 @@
 
 # -----------------------------------------------------------------------
 
+# Variable Length Arguments : 
+
+# Program No. 1 : 
+
+# def average(*numbers): # it takes a tuple 
+#     sum = 0
+#     for i in numbers:
+#         sum = sum+i
+#     print("Average is ", sum/len(numbers))
+# average(5, 6, 7, 1)
+
+# Program No. 2 : 
+
+# def name(**name): # it take a dictonery
+#     print("Hello,", name["fname"], name["mname"], name["lname"])
+# name(mname ="Jangid", lname="Yograj", fname="Deepak")
+
+# -----------------------------------------------------------------------
+
+# return on the place of print : 
+
+def average(*numbers):
+    sum =0
+    for i in numbers:
+        sum = sum+i
+        # return 7 # priorities return 1st return 1st print after that ignore
+    return sum/len(numbers) # if we comment out this return line then play the code then the output is "NONE"
+c = average(5, 6, 7, 1)
+print(c)
