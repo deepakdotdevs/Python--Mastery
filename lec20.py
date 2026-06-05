@@ -70,10 +70,10 @@
 
 # Program No. 1 : 
 
-Lst = [i for i in range(4)] # means starting index is 0 and last is 4 which prints from 0 to 3 indexes
-print(Lst) # [0,1,2,3]
-Lst2 = [i*i for i in range(4)]
-print(Lst2) # [0,1,4,9]
-Lst3 = [i*i for i in range(10) if i%2==0]
-print(Lst3) # (0, 2, 4, 6, 8) ka square
+# Lst = [i for i in range(4)] # means starting index is 0 and last is 4 which prints from 0 to 3 indexes
+# print(Lst) # [0,1,2,3]
+# Lst2 = [i*i for i in range(4)]
+# print(Lst2) # [0,1,4,9]
+# Lst3 = [i*i for i in range(10) if i%2==0]
+# print(Lst3) # (0, 2, 4, 6, 8) ka square
 
