@@ -23,21 +23,22 @@
 
 # Program Code : 
 
-msg = input("Enter Message: ")
-choice = input("Enter 'c' for coding & 'd' for decoding: ")
-if(choice=='c'): # means coding
-    if(len(msg)<3):
-        print(f"Coded Msg coz msg is less than 3: ", msg[::-1])
-    else:
-        coded = "abc"+msg[1:]+msg[0]+"xyz"
-        print(f"CODED MESSAGE: {coded}")
-elif(choice=='d'): 
-    if(len(msg)<3):
-        print(f"Decoded Message as Length is less than 3: ")
-    else:
-        temp = msg[3:-3]
-        decoded = temp[-1]+temp[:-1]
-        print(f"DECODED Message: {decoded}")
-else:
-    print("Invalid Choice")
-    
+# msg = input("Enter Message: ")
+# choice = input("Enter 'c' for coding & 'd' for decoding: ")
+# if(choice=='c'): # means coding
+#     if(len(msg)<3):
+#         print(f"Coded Msg coz msg is less than 3: ", msg[::-1])
+#     else:
+#         coded = "abc"+msg[1:]+msg[0]+"xyz"
+#         print(f"CODED MESSAGE: {coded}")
+# elif(choice=='d'): 
+#     if(len(msg)<3):
+#         print(f"Decoded Message as Length is less than 3: ")
+#     else:
+#         temp = msg[3:-3]
+#         decoded = temp[-1]+temp[:-1]
+#         print(f"DECODED Message: {decoded}")
+# else:
+#     print("Invalid Choice")
+
+# ----------------------------------------------------------
