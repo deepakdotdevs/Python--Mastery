@@ -16,6 +16,14 @@
 # class. For example, a class variable can be used to store the number of
 # instances of a class that have been created.
 
+# Instance Variables 
+
+# Instance variables are defined at the instance level and are
+# unique to each instance of the clas's. They are defined inside
+# the init method and are usually used to store information that
+# is specific to each instance of the class. For example, an
+# instance variable can be used to store the name of an
+# employee in a class that represents an employee.
 # ------------------------------------------------------------------------------\\
 
 # Instance Variable associated with Instance not the class
