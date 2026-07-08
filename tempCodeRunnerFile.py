@@ -1,1 +1,2 @@
-print
+int(e.name)
+print(e)
